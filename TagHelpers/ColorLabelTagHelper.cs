@@ -8,7 +8,7 @@ namespace CustomTagHelpers.TagHelpers
 
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
-            output.TagName = "label";
+            output.TagName = "coloredlabel";
 
             var colorStyle = $"color:{Color}";
             output.Attributes.SetAttribute("style", colorStyle);

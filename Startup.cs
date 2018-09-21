@@ -56,7 +56,7 @@ namespace CustomTagHelpers
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=CustomTagHelper}/{action=Index}/{id?}");
             });
         }
     }
